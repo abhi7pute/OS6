@@ -1,0 +1,77 @@
+1. How to create a class, object, method, and its signature:
+
+public class MyClass {
+    
+    public void printMessage(String message) {
+        System.out.println(message);
+    }
+    
+    public static void main(String[] args) {
+        MyClass myObject = new MyClass();
+        myObject.printMessage("Hello, World!");
+    }
+}
+2. Write a program to print your name:
+
+public class PrintName {
+    public static void main(String[] args) {
+        System.out.println("Your Name");
+    }
+}
+
+3. Write a program for a single-line comment, multi-line, and documentation comments:
+
+public class CommentsExample {
+    public static void main(String[] args) {
+        // This is a single-line comment
+        /*
+           This is a
+           multi-line comment
+        */
+        /**
+         * This is a documentation comment.
+         * It provides information about the class or method.
+         */
+    }
+}
+4. Define variables for different data types and print on the console:
+
+public class VariableExample {
+    public static void main(String[] args) {
+        int myInt = 42;
+        boolean myBoolean = true;
+        char myChar = 'A';
+        float myFloat = 3.14f;
+        double myDouble = 2.71828;
+        
+        System.out.println("Integer: " + myInt);
+        System.out.println("Boolean: " + myBoolean);
+        System.out.println("Character: " + myChar);
+        System.out.println("Float: " + myFloat);
+        System.out.println("Double: " + myDouble);
+    }
+}
+5. Define local and global variables with the same name and understand the scope of the variables:
+public class VariableScopeExample {
+
+    static int globalVar = 10;
+
+    public static void main(String[] args) {
+        
+        int localVar = 5;
+        
+        System.out.println("Global variable: " + globalVar);
+        System.out.println("Local variable: " + localVar); 
+    }
+}
+6. Write a function to print your name and call the function from the main method:
+public class PrintNameFunction {
+    
+    public static void printName() {
+        System.out.println("Your Name");
+    }
+
+    public static void main(String[] args) {
+        printName(); // Call the function
+    }
+}
